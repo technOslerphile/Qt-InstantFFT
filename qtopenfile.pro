@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2014-08-26T13:11:04
+# Project created by QtCreator 2014-08-26T15:37:37
 #
 #-------------------------------------------------
 
@@ -8,16 +8,16 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = qtOpenCV
+TARGET = qtopenfile
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        dialogue.cpp
+        mainwindow.cpp
 
-HEADERS  += dialogue.h
+HEADERS  += mainwindow.h
 
-FORMS    += dialogue.ui
+FORMS    += mainwindow.ui
 
 INCLUDEPATH += C:\\OpenCV\\OpenCV-install\\opencv\\build\\include
 
